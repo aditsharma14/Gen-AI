@@ -1,0 +1,37 @@
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+credentials.json
+secrets.json
+
+# Python environments and generated files
+.venv/
+.venv-*/
+venv/
+env/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Jupyter local state and generated output
+.ipynb_checkpoints/
+
+# Local databases, vector stores, and downloaded data
+*.sqlite
+*.sqlite3
+*.db
+chroma/
+data/
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+.vscode/
